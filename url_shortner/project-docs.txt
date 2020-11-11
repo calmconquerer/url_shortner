@@ -1,0 +1,8 @@
+# URL SHORTNER
+
+- User will paste their url (and a slug but that's optional).
+- The backend will save the url and the slug in the db. If the user hasn't inputted a slug then the default one would be the randomly generated slug and it will check that slug in db too if exists or not.
+- Once it does that then django would return a shortned url. If the user pastes that url into the browser then it would redirect to the desired website.
+
+- I'm thinking about using bootstrap for fornt-end or maybe go with vue? If I'll use vue then I'll need to request from the front-end to the API using fetch?
+- I'll have to go thorugh the django-rest-framework docs as well if I'm going to use the rest framework just to familiarize myself on developing APIs.
